@@ -1,0 +1,22 @@
+{
+    "name": "jackdou/easyswoole-rpc",
+    "description": "rpc demo based on easyswoole3",
+    "type": "library",
+    "license": ["MIT"],
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "jackdou",
+            "email": "1139209675@qq.com"
+        }
+    ],
+    "require": {
+        "easyswoole/rpc": "3.x"
+    },
+    "autoload": {
+        "psr-4":  {
+            "App\\" : "app/"
+        }
+    }
+}
